@@ -1,0 +1,65 @@
+body {
+    background-color: #6a62d2;
+}
+
+.text {
+    font-weight: 900;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    background-color: white;
+    width: max-content;
+    border-radius: 2px;
+    padding: 30px;
+    transform: translate(-50%, 50%);
+}
+
+.input-field {
+    width: 88%;
+    padding: 15px;
+    background-color: #e5e9ed;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.input-field:focus {
+    outline: none;
+}
+
+.input-field:hover {
+    background-color: #b9b8c5;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #6a62d2;
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.tick {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 10px;
+}
+
+.anchor {
+    text-align: center;
+}
+
+.anchor a {
+    text-decoration: none;
+    color: gray;
+}
