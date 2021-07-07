@@ -63,3 +63,7 @@ label {
     text-decoration: none;
     color: gray;
 }
+
+button:hover {
+    background-color: #6f65f0;
+}
